@@ -133,53 +133,53 @@
                         <h1>Fundamentals of UI/UX Design</h1>
                         <p>Some quick example text to build on the card title
                             and make up the bulk of the card.</p>
-                        <h4 class="text-primary">price : 241</h4>
+                        <h4 class="text-primary">Price : $241</h4>
                     </div>
 
                 </div>
                 <div class="col d-flex gap-4  border mycourse">
                     <img src="course/course-2.png" alt="">
                     <div>
-                        <h1>Fundamentals of UI/UX Design</h1>
+                        <h1>Javascript Basic to advanced</h1>
                         <p>Some quick example text to build on the card title
                             and make up the bulk of the card.</p>
-                        <h4 class="text-primary">price : 241</h4>
+                        <h4 class="text-primary">Price : $241</h4>
                     </div>
                 </div>
                 <div class="col d-flex gap-4  border mycourse">
                     <img src="course/course-3.png" alt="">
                     <div>
-                        <h1>Fundamentals of UI/UX Design</h1>
+                        <h1>Fullstack Web Development</h1>
                         <p>Some quick example text to build on the card title
                             and make up the bulk of the card.</p>
-                        <h4 class="text-primary">price : 241</h4>
+                        <h4 class="text-primary">Price : $241</h4>
                     </div>
                 </div>
                 <div class="col d-flex gap-4 border mycourse">
                     <img src="course/course-4.png" alt="">
                     <div>
-                        <h1>Fundamentals of UI/UX Design</h1>
+                        <h1>Digital Marketing</h1>
                         <p>Some quick example text to build on the card title
                             and make up the bulk of the card.</p>
-                        <h4 class="text-primary">price : 241</h4>
+                        <h4 class="text-primary">Price : $241</h4>
                     </div>
                 </div>
                 <div class="col d-flex gap-4  border mycourse">
                     <img src="course/course-5.png" alt="">
                     <div>
-                        <h1>Fundamentals of UI/UX Design</h1>
+                        <h1>Photography Basic Rules</h1>
                         <p>Some quick example text to build on the card title
                             and make up the bulk of the card.</p>
-                        <h4 class="text-primary">price : 241</h4>
+                        <h4 class="text-primary">Price : $241</h4>
                     </div>
                 </div>
                 <div class="col d-flex gap-4  border mycourse">
                     <img src="course/course-6.png" alt="">
                     <div>
-                        <h1>Fundamentals of UI/UX Design</h1>
+                        <h1>Motion Graphics</h1>
                         <p>Some quick example text to build on the card title
                             and make up the bulk of the card.</p>
-                        <h4 class="text-primary">price : 241</h4>
+                        <h4 class="text-primary">Price : $241</h4>
                     </div>
                 </div>
             </div>
@@ -198,9 +198,145 @@
                     readable content of a page when looking at its layout.
                 </p>
             </div>
-            <button class="bg-white text-primary fw-bold fs-4 me-5 mybutton rounded-3">Register Now</button>
+
+            <button type="button" class=" btn bg-white text-primary fw-bold fs-4 me-5 mybutton rounded-3"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+
+ <!-------------------------------------------------------------------- modal ------------------------------------------------------------------>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-------------------------------------------------------------------------------------- modal ----------------------------------------------------------------->
         </div>
     </div>
+
+    <!------------------------------------------------------------------------------           -----------------------------------
+                                                                                      Accordion
+     --------------------------------------------------------------------------------          ---------------------------------->
+
+
+<section class="container mb-5 ">
+
+<div class="text-center pt-5 pb-5 ">
+    <h1>Wanna know interview questions?</h1>
+    <p>Click below to know the questions and answers of the top company interview.</p>
+</div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    What are the differences between flexbox & grid?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Grid and flexbox</strong>
+                    The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one
+                    dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                    The two specifications share some common features, however, and if you have already learned how to use flexbox, the
+                    similarities should help you get to grips with Grid.
+                    
+                    One-dimensional versus two-dimensional layout
+                    A simple example can demonstrate the difference between one- and two-dimensional layouts.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What are the differences between Bootstrap & Tailwind?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    What’s the difference between Tailwind CSS and Bootstrap?
+                    Bootstrap is the most popular HTML, CSS, and JavaScript framework for building responsive, mobile-first projects on the
+                    web. Tailwind CSS, on the other hand, is the most popular utility-first CSS framework for fast UI development.
+                    
+                    The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits such as
+                    Bootstrap, Bulma, and Foundation, Tailwind CSS doesn’t have a default theme or built-in UI components. Instead, it comes
+                    with predesigned widgets you can use to build your site from scratch.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is CSS Box Model?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>The CSS box model</strong>In CSS, the term "box model" is used when talking about design and layout.
+                    
+                    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding,
+                    and the actual content. The image below illustrates the box model:
+                    
+                    Explanation of the different parts:
+                    
+                    Content - The content of the box, where text and images appear
+                    Padding - Clears an area around the content. The padding is transparent
+                    Border - A border that goes around the padding and content
+                    Margin - Clears an area outside the border. The margin is transparent
+                    The box model allows us to add a border around elements, and to define space between elements.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree">
+                    What is a semantic Tag?
+                </button>
+            </h2>
+            <div id="collapseThree1" class="accordion-collapse collapse" aria-labelledby="headingThree1"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>
+                    
+                    What is HTML Semantics?</strong> The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML
+                    more comprehensible by better defining the different sections and layout of web pages. This article will focus on ‘What
+                    is Semantics in HTML’.
+                    
+                    What is HTML Semantics?
+                    The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the
+                    browser. These elements clearly define its content.
+                    
+                    Why Do You Need to Use Semantic Tags in HTML?
+                    The are several advantages of using semantics tags in HTML:
+                    
+                    The semantic HTML tags help the search engines and other user devices to determine the importance and context of web
+                    pages.
+                    The pages made with semantic elements are much easier to read.
+                    It has greater accessibility. It offers a better user experience.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
