@@ -9,5 +9,17 @@
     margin-left: 400px;
 }
 .carotext{
-   padding-bottom: 500px;
+   position: absolute;
+   top: 200px;
+
+}
+.text1{
+    font-size: 80px;
+}
+.caroimg{
+    position: relative;
+}
+.caromain{
+    margin-left: 60px;
+    margin-right: 60px;
 }
