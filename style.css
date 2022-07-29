@@ -10,6 +10,7 @@
 }
 .carotext{
    position: absolute;
+   
    top: 200px;
 
 }
@@ -22,4 +23,9 @@
 .caromain{
     margin-left: 60px;
     margin-right: 60px;
+}
+ @media screen and (max-width: 992px) {
+ .mycourse{
+ flex-direction:column;
+ }
 }
