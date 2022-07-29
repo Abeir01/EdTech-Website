@@ -56,3 +56,12 @@ padding-left: 40px;
 
     }
 }
+.mycom{
+    margin-left: 150px;
+}
+@media screen and (min-width:400px) and (max-width: 1200px) {
+    .companyvis{
+       visibility: hidden;
+       
+    }
+}
